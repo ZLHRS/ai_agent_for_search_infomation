@@ -1,0 +1,375 @@
+[
+  {
+    "name": "TED EU",
+    "category": "tender_portal",
+    "base_url": "https://ted.europa.eu/en/",
+    "domain": "ted.europa.eu",
+    "enabled": true,
+    "modes": [
+      "domain_search",
+      "browser"
+    ],
+    "notes": "EU tenders portal"
+  },
+  {
+    "name": "Zakupki GOV RU",
+    "category": "tender_portal",
+    "base_url": "https://zakupki.gov.ru/",
+    "domain": "zakupki.gov.ru",
+    "enabled": true,
+    "modes": [
+      "domain_search",
+      "browser"
+    ]
+  },
+  {
+    "name": "FGIS CS Minstroy",
+    "category": "product_registry",
+    "base_url": "https://fgiscs.minstroyrf.ru/",
+    "domain": "fgiscs.minstroyrf.ru",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "GGZY China",
+    "category": "tender_portal",
+    "base_url": "https://www.ggzy.gov.cn/",
+    "domain": "ggzy.gov.cn",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "CCGP China",
+    "category": "tender_portal",
+    "base_url": "http://www.ccgp.gov.cn/",
+    "domain": "ccgp.gov.cn",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Jiangsu Trading",
+    "category": "tender_portal",
+    "base_url": "http://jsggzy.jszwfw.gov.cn.html",
+    "domain": "jsggzy.jszwfw.gov.cn",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ],
+    "negative_hints": [
+      "404"
+    ]
+  },
+  {
+    "name": "Zycg Market",
+    "category": "marketplace",
+    "base_url": "https://mkt.zycg.gov.cn/",
+    "domain": "mkt.zycg.gov.cn",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Open Contracting Data Registry",
+    "category": "open_data",
+    "base_url": "https://data.open-contracting.org/",
+    "domain": "data.open-contracting.org",
+    "enabled": true,
+    "modes": [
+      "page_only",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Xarid UZ",
+    "category": "tender_portal",
+    "base_url": "https://xarid.mf.uz/",
+    "domain": "xarid.mf.uz",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Zakupki KG",
+    "category": "tender_portal",
+    "base_url": "http://zakupki.gov.kg/",
+    "domain": "zakupki.gov.kg",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Platforma Zakupowa specific tender",
+    "category": "tender_portal",
+    "base_url": "https://platformazakupowa.pl/transakcja/1235788",
+    "domain": "platformazakupowa.pl",
+    "enabled": true,
+    "modes": [
+      "page_only",
+      "browser"
+    ]
+  },
+  {
+    "name": "Meinauftrag specific publication",
+    "category": "tender_portal",
+    "base_url": "https://www.meinauftrag.rib.de/public/publications/574922",
+    "domain": "meinauftrag.rib.de",
+    "enabled": true,
+    "modes": [
+      "page_only",
+      "browser"
+    ],
+    "negative_hints": [
+      "announcement not found",
+      "no longer publicly available"
+    ]
+  },
+  {
+    "name": "USAspending",
+    "category": "tender_portal",
+    "base_url": "https://www.usaspending.gov/",
+    "domain": "usaspending.gov",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Prozorro",
+    "category": "tender_portal",
+    "base_url": "https://prozorro.gov.ua/en",
+    "domain": "prozorro.gov.ua",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "MERX",
+    "category": "tender_portal",
+    "base_url": "https://www.merx.com/public/solicitations/open",
+    "domain": "merx.com",
+    "enabled": true,
+    "modes": [
+      "page_only",
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "SAP Ariba",
+    "category": "marketplace",
+    "base_url": "https://service.ariba.com/",
+    "domain": "service.ariba.com",
+    "enabled": false,
+    "modes": [
+      "page_only",
+      "browser"
+    ],
+    "negative_hints": [
+      "buyer supplier",
+      "business network",
+      "welcome"
+    ],
+    "notes": "Disabled by default: generic landing page"
+  },
+  {
+    "name": "B2B-Center",
+    "category": "marketplace",
+    "base_url": "https://www.b2b-center.ru/app/next/registration/",
+    "domain": "b2b-center.ru",
+    "enabled": false,
+    "modes": [
+      "page_only",
+      "browser",
+      "domain_search"
+    ],
+    "negative_hints": [
+      "registration",
+      "зарегистрироваться"
+    ],
+    "notes": "Disabled by default: registration page"
+  },
+  {
+    "name": "Fabrikant",
+    "category": "marketplace",
+    "base_url": "https://www.fabrikant.ru/",
+    "domain": "fabrikant.ru",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "GlobalTenders",
+    "category": "tender_portal",
+    "base_url": "https://www.globaltenders.com/",
+    "domain": "globaltenders.com",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "TendersOnTime",
+    "category": "tender_portal",
+    "base_url": "https://www.tendersontime.com/",
+    "domain": "tendersontime.com",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Data GOV IN",
+    "category": "open_data",
+    "base_url": "https://www.data.gov.in/",
+    "domain": "data.gov.in",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "Machinery Trader",
+    "category": "marketplace",
+    "base_url": "https://www.machinerytrader.com/",
+    "domain": "machinerytrader.com",
+    "enabled": true,
+    "modes": [
+      "page_only",
+      "search_template",
+      "domain_search"
+    ],
+    "search_url_template": "https://www.machinerytrader.com/listings/search?keywords={query}",
+    "negative_hints": [
+      "just a moment"
+    ]
+  },
+  {
+    "name": "Internet Archive",
+    "category": "open_data",
+    "base_url": "https://archive.org/",
+    "domain": "archive.org",
+    "enabled": true,
+    "modes": [
+      "search_template",
+      "page_only"
+    ],
+    "search_url_template": "https://archive.org/search?query={query}"
+  },
+  {
+    "name": "GISP products",
+    "category": "product_registry",
+    "base_url": "https://gisp.gov.ru/pp719v2/pub/prod/",
+    "domain": "gisp.gov.ru",
+    "enabled": true,
+    "modes": [
+      "dataset",
+      "page_only"
+    ],
+    "notes": "Landing page exposes XLSX downloads"
+  },
+  {
+    "name": "GISP organizations",
+    "category": "company_registry",
+    "base_url": "https://gisp.gov.ru/pp719v2/pub/org/",
+    "domain": "gisp.gov.ru",
+    "enabled": true,
+    "modes": [
+      "page_only",
+      "domain_search"
+    ]
+  },
+  {
+    "name": "GISP radio-electronics",
+    "category": "product_registry",
+    "base_url": "https://gisp.gov.ru/pp719v2/pub/prod/rep/",
+    "domain": "gisp.gov.ru",
+    "enabled": true,
+    "modes": [
+      "dataset",
+      "page_only"
+    ]
+  },
+  {
+    "name": "FNS SME registry",
+    "category": "company_registry",
+    "base_url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "domain": "nalog.gov.ru",
+    "enabled": true,
+    "modes": [
+      "dataset",
+      "page_only"
+    ]
+  },
+  {
+    "name": "Russian Software Registry",
+    "category": "product_registry",
+    "base_url": "https://reestr.digital.gov.ru/reestr/?tab=registry_active&PROD_NAME=&PROD_REESTR_NUM=&CLASSIFIER=&OWNER_NAME=&OWNER_INN=&OWNER_STATUS=&PROD_DES_NUM=&PROD_DES_DATE=&REQ_REG_NUM=&REQ_REG_DATE=",
+    "domain": "reestr.digital.gov.ru",
+    "enabled": true,
+    "modes": [
+      "search_template",
+      "browser",
+      "page_only"
+    ],
+    "search_url_template": "https://reestr.digital.gov.ru/reestr/?tab=registry_active&PROD_NAME={query}&PROD_REESTR_NUM=&CLASSIFIER=&OWNER_NAME=&OWNER_INN=&OWNER_STATUS=&PROD_DES_NUM=&PROD_DES_DATE=&REQ_REG_NUM=&REQ_REG_DATE="
+  },
+  {
+    "name": "MCX best producers",
+    "category": "product_registry",
+    "base_url": "http://opendata.mcx.ru/opendata/7708075454-bestprod",
+    "domain": "opendata.mcx.ru",
+    "enabled": true,
+    "modes": [
+      "dataset",
+      "page_only"
+    ]
+  },
+  {
+    "name": "EAEU register map",
+    "category": "product_registry",
+    "base_url": "https://goszakupki.eaeunion.org/erpt/ru/registers/products/map",
+    "domain": "goszakupki.eaeunion.org",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search",
+      "page_only"
+    ]
+  },
+  {
+    "name": "Factories RF",
+    "category": "product_registry",
+    "base_url": "https://xn--80aegj1b5e.xn--p1ai/factories",
+    "domain": "xn--80aegj1b5e.xn--p1ai",
+    "enabled": true,
+    "modes": [
+      "browser",
+      "domain_search",
+      "page_only"
+    ]
+  }
+]
