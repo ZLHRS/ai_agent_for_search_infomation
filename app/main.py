@@ -48,4 +48,5 @@ async def analyze(request: AnalysisRequest) -> AnalysisResponse:
         product_name=request.product_name,
         max_results_per_source=request.max_results_per_source,
         include_disabled=request.include_disabled,
+        product_context=request.product_context,
     )

@@ -6,8 +6,14 @@
     "domain": "ted.europa.eu",
     "enabled": true,
     "modes": [
-      "domain_search",
+      "source_search",
       "browser"
+    ],
+    "notes": "Use TED's own result pages before any external search fallback.",
+    "negative_hints": [
+      "eforms notice",
+      "saved searches",
+      "latest oj s issue"
     ]
   },
   {
@@ -17,8 +23,31 @@
     "domain": "prozorro.gov.ua",
     "enabled": true,
     "modes": [
-      "domain_search",
+      "source_search",
       "browser"
+    ],
+    "notes": "Prefer the native tender search page and reject generic filter/result hub pages.",
+    "negative_hints": [
+      "more than 10,000 results have been found",
+      "download plans",
+      "all filters"
+    ]
+  },
+  {
+    "name": "Zakupki",
+    "category": "tender_portal",
+    "base_url": "https://zakupki.gov.ru/epz/order/extendedsearch/results.html",
+    "domain": "zakupki.gov.ru",
+    "enabled": true,
+    "modes": [
+      "source_search",
+      "browser"
+    ],
+    "notes": "Use official extended search results; avoid unrelated registries and generic portal pages.",
+    "negative_hints": [
+      "реестр недобросовестных поставщиков",
+      "расширенный поиск",
+      "параметры поиска"
     ]
   },
   {
@@ -94,8 +123,15 @@
     "domain": "gisp.gov.ru",
     "enabled": true,
     "modes": [
+      "source_search",
       "dataset",
       "page_only"
+    ],
+    "notes": "Use the registry landing page and exported datasets as the primary search surface.",
+    "negative_hints": [
+      "государственная информационная система промышленности",
+      "расширенный поиск",
+      "применить фильтр"
     ]
   },
   {
@@ -105,8 +141,15 @@
     "domain": "gisp.gov.ru",
     "enabled": true,
     "modes": [
+      "source_search",
       "dataset",
       "page_only"
+    ],
+    "notes": "Use the dedicated radio-electronics registry before generic web search.",
+    "negative_hints": [
+      "государственная информационная система промышленности",
+      "расширенный поиск",
+      "применить фильтр"
     ]
   },
   {
@@ -116,11 +159,17 @@
     "domain": "reestr.digital.gov.ru",
     "enabled": true,
     "modes": [
-      "search_template",
+      "source_search",
       "browser",
       "page_only"
     ],
-    "search_url_template": "https://reestr.digital.gov.ru/reestr/?tab=registry_active&PROD_NAME={query}&PROD_REESTR_NUM=&CLASSIFIER=&OWNER_NAME=&OWNER_INN=&OWNER_STATUS=&PROD_DES_NUM=&PROD_DES_DATE=&REQ_REG_NUM=&REQ_REG_DATE="
+    "search_url_template": "https://reestr.digital.gov.ru/reestr/?tab=registry_active&PROD_NAME={query}&PROD_REESTR_NUM=&CLASSIFIER=&OWNER_NAME=&OWNER_INN=&OWNER_STATUS=&PROD_DES_NUM=&PROD_DES_DATE=&REQ_REG_NUM=&REQ_REG_DATE=",
+    "notes": "Registry-specific search is better than external site search for software products.",
+    "negative_hints": [
+      "таблица результатов",
+      "классификатор",
+      "правообладатель"
+    ]
   },
   {
     "name": "Machinery Trader",
@@ -129,10 +178,15 @@
     "domain": "machinerytrader.com",
     "enabled": true,
     "modes": [
-      "page_only",
-      "search_template",
-      "domain_search"
+      "source_search",
+      "page_only"
     ],
-    "search_url_template": "https://www.machinerytrader.com/listings/search?keywords={query}"
+    "search_url_template": "https://www.machinerytrader.com/listings/search?keywords={query}",
+    "notes": "Use native keyword search and listing pages, not generic web search.",
+    "negative_hints": [
+      "notify me",
+      "save search",
+      "auction results"
+    ]
   }
 ]
